@@ -1,0 +1,145 @@
+
+ .Text {
+    position: absolute;
+    z-index: 3; 
+    text-align: right;
+    color: white; 
+    font-family: Helvetia, sans-serif;
+   left: 180px;
+    top: 25px;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 4;
+}
+
+.title2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    z-index: 3;
+}
+
+.subtitle {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    z-index: 3;
+}
+
+.subtitle2 {
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+    color: black;
+    z-index: 3;
+}
+
+.author {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-family: Helvetica;
+    z-index: 3;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 500px;
+    height: 875px;
+    background: #09535c;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+  .circleone {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  background: #f88e36;
+  border-radius: 100%;
+  left: 25px;
+  top: 370px;
+  z-index: 3;
+  animation-name: c1move;
+}
+
+@keyframes c1move {
+  0% {transform: }
+}
+
+ .circletwo {
+  width: 370px;
+  height: 370px;
+  position: absolute;
+  background: #f4762c;
+  border-radius: 100%;
+  left: 65px;
+  top: 410px;
+  z-index: 3;
+  animation: rotate 9s infinite linear;
+  transform-origin: 20% 20%;
+}
+
+ .circlethree {
+  width: 290px;
+  height: 290px;
+  position: absolute;
+  background: #f0433c;
+  border-radius: 100%;
+  left: 105px;
+  top: 452px;
+  z-index: 3;
+   animation: rotate 9s infinite linear;
+  transform-origin: 15% 15%;
+}
+
+.circlefour {
+  width: 210px;
+  height: 210px;
+  position: absolute;
+  background: #bb1f2c;
+  border-radius: 100%;
+  left: 147px;
+  top: 492px;
+  z-index: 3;
+ animation: rotate 7s infinite linear;
+  transform-origin: 15% 15%;
+}
+
+
+
+@keyframes rotate{
+  0% { transform: rotate(0deg); }
+  100% { transform:rotate(360deg); }
+}
+
+.circlefive {
+  width: 120px;
+  height: 120px;
+  background: #10141f;
+  position: relative;
+  border-radius: 50%;
+  left: 355px;
+  top: 815px;
+  margin-left: -150px;
+  margin-top: -150px;
+  transform: translate(-50%,-50%);
+  z-index: 3;
+  animation: rotate 4s infinite linear;
+  transform-origin: 15% 15%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
